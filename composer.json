@@ -1,0 +1,20 @@
+{
+	"name": "ideenkonzept/zodiac",
+	"description": "Zodiac Handler",
+	"type": "library",
+	"require": {
+		"nesbot/carbon": "^1.25"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ahmed M Dabak",
+			"email": "ahmed-dabak@hotmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Ideenkonzept/Zodiac": "src/"
+		}
+	}
+}
