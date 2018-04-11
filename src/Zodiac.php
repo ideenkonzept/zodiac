@@ -28,7 +28,7 @@ abstract class Zodiac {
 	}
 
 	public function name() {
-	    $names = require_once __DIR__ . "/lang/{$this->local}.php";
+	    $names = include __DIR__ . "/lang/{$this->local}.php";
 
 	    return $names[class_basename($this)];
 	}
