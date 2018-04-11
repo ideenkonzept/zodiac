@@ -6,9 +6,9 @@
  */
 
 return [
-	'Aries'       => 'Zwilling',
+	'Aries'       => 'Widder',
 	'Taurus'      => 'Stier',
-	'Gemini'      => 'Widder',
+	'Gemini'      => 'Zwilling',
 	'Cancer'      => 'Krebs',
 	'Leo'         => 'Löwe',
 	'Virgo'       => 'Jungfrau',
