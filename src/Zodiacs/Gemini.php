@@ -12,5 +12,5 @@ use Ideenkonzept\Zodiac\Zodiac;
 
 class Gemini extends Zodiac {
 	protected $start = [ 'month' => 5, 'day' => 21 ];
-	protected $end = [ 'month' => 6, 'day' => 21 ];
+	protected $end = [ 'month' => 6, 'day' => 20 ];
 }

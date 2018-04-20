@@ -10,6 +10,6 @@ namespace Ideenkonzept\Zodiac\Zodiacs;
 use Ideenkonzept\Zodiac\Zodiac;
 
 class Aquarius extends Zodiac {
-	protected $start = [ 'month' => 1, 'day' => 21 ];
-	protected $end = [ 'month' => 2, 'day' => 19 ];
+	protected $start = [ 'month' => 1, 'day' => 20 ];
+	protected $end = [ 'month' => 2, 'day' => 18 ];
 }

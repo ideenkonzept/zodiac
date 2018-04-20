@@ -11,6 +11,6 @@ namespace Ideenkonzept\Zodiac\Zodiacs;
 use Ideenkonzept\Zodiac\Zodiac;
 
 class Scorpio extends Zodiac {
-	protected $start = [ 'month' => 10, 'day' => 24 ];
-	protected $end = [ 'month' => 11, 'day' => 22 ];
+	protected $start = [ 'month' => 10, 'day' => 23 ];
+	protected $end = [ 'month' => 11, 'day' => 21 ];
 }

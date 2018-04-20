@@ -11,6 +11,6 @@ namespace Ideenkonzept\Zodiac\Zodiacs;
 use Ideenkonzept\Zodiac\Zodiac;
 
 class Pisces extends Zodiac {
-	protected $start = [ 'month' => 2, 'day' => 20 ];
+	protected $start = [ 'month' => 2, 'day' => 19 ];
 	protected $end = [ 'month' => 3, 'day' => 20 ];
 }

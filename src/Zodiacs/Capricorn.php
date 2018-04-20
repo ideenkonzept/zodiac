@@ -12,5 +12,5 @@ use Ideenkonzept\Zodiac\Zodiac;
 
 class Capricorn extends Zodiac {
 	protected $start = [ 'month' => 12, 'day' => 22 ];
-	protected $end = [ 'month' => 1, 'day' => 20 ];
+	protected $end = [ 'month' => 1, 'day' => 19 ];
 }

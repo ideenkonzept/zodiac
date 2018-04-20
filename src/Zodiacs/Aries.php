@@ -12,5 +12,5 @@ use Ideenkonzept\Zodiac\Zodiac;
 
 class Aries extends Zodiac {
 	protected $start = [ 'month' => 3, 'day' => 21 ];
-	protected $end = [ 'month' => 4, 'day' => 20 ];
+	protected $end = [ 'month' => 4, 'day' => 19 ];
 }

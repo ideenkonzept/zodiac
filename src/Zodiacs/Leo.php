@@ -12,5 +12,5 @@ use Ideenkonzept\Zodiac\Zodiac;
 
 class Leo extends Zodiac {
 	protected $start = [ 'month' => 7, 'day' => 23 ];
-	protected $end = [ 'month' => 8, 'day' => 23 ];
+	protected $end = [ 'month' => 8, 'day' => 22 ];
 }
