@@ -75,6 +75,6 @@ class ZodiacFinder {
 	}
 
 	private static function match( Carbon $date, Zodiac $zodiac ) {
-		return $date->between( $zodiac->startDate(), $zodiac->endDate() );
+		return $date->between( $zodiac->startDate(), $zodiac->endDate(), true );
 	}
 }
