@@ -63,14 +63,14 @@ class ZodiacFinder {
 		}
 	}
 
-	private static function isCapricorn( $date ) {
+		private static function isCapricorn( $date ) {
 
 		return (
-			       $date->gte( Carbon::create( $date->year, 1, 1, 0, 0, 0 ) ) &&
-			       $date->lte( Carbon::create( $date->year, 1, 20, 23, 59, 59.99999 ) )
+			       $date->gte( Carbon::createFromFormat( 'Y-m-d H:i:s', $date->year."-1-1 00:00:00" ) ) &&
+			       $date->lte( Carbon::createFromFormat('Y-m-d H:i:s.u', $date->year."-1-20 23:59:59.99999" ) )
 		       ) || (
-			       $date->gte( Carbon::create( $date->year, 12, 22, 0, 0, 0 ) ) &&
-			       $date->lte( Carbon::create( $date->year, 12, 31, 23, 59, 59.99999 ) )
+			       $date->gte( Carbon::createFromFormat('Y-m-d H:i:s', $date->year."-12-22 00:00:00" ) ) &&
+			       $date->lte( Carbon::createFromFormat('Y-m-d H:i:s.u', $date->year."-12-31 23:59:59.99999" ) )
 		       );
 	}
 
