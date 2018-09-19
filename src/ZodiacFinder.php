@@ -67,10 +67,10 @@ class ZodiacFinder {
 
 		return (
 			       $date->gte( Carbon::create( $date->year, 1, 1, 0, 0, 0 ) ) &&
-			       $date->lte( Carbon::create( $date->year, 1, 20, 23, 59, 59 ) )
+			       $date->lte( Carbon::create( $date->year, 1, 20, 23, 59, 59.99999 ) )
 		       ) || (
 			       $date->gte( Carbon::create( $date->year, 12, 22, 0, 0, 0 ) ) &&
-			       $date->lte( Carbon::create( $date->year, 12, 31, 23, 59, 59 ) )
+			       $date->lte( Carbon::create( $date->year, 12, 31, 23, 59, 59.99999 ) )
 		       );
 	}
 
