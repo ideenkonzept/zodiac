@@ -20,11 +20,11 @@ abstract class Zodiac {
 	}
 
 	public function startDate() {
-		return Carbon::create( $this->year, $this->start['month'], $this->start['day'], 0, 0, 0 );
+		return Carbon::createFromFormat('Y-m-d H:i:s' ,"{$this->year}-{$this->start['month']}-{$this->start['day']} 00:00:00" );
 	}
 
 	public function endDate() {
-		return Carbon::create( $this->year, $this->end['month'], $this->end['day'], 23, 59, 59.9999999 );
+		return Carbon::createFromFormat('Y-m-d H:i:s.u', "{$this->year}-{$this->end['month']}-{$this->end['day']} 23:59:59.999999" );
 	}
 
 	public function name() {
