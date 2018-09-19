@@ -24,7 +24,7 @@ abstract class Zodiac {
 	}
 
 	public function endDate() {
-		return Carbon::create( $this->year, $this->end['month'], $this->end['day'], 23, 59, 59 );
+		return Carbon::create( $this->year, $this->end['month'], $this->end['day'], 23, 59, 59.9999999 );
 	}
 
 	public function name() {
