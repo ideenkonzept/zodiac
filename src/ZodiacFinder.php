@@ -67,7 +67,7 @@ class ZodiacFinder {
 
 		return (
 			       $date->gte( Carbon::createFromFormat( 'Y-m-d H:i:s', $date->year."-1-1 00:00:00" ) ) &&
-			       $date->lte( Carbon::createFromFormat('Y-m-d H:i:s.u', $date->year."-1-20 23:59:59.99999" ) )
+			       $date->lte( Carbon::createFromFormat('Y-m-d H:i:s.u', $date->year."-1-19 23:59:59.99999" ) )
 		       ) || (
 			       $date->gte( Carbon::createFromFormat('Y-m-d H:i:s', $date->year."-12-22 00:00:00" ) ) &&
 			       $date->lte( Carbon::createFromFormat('Y-m-d H:i:s.u', $date->year."-12-31 23:59:59.99999" ) )
